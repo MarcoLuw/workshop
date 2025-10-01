@@ -1,5 +1,0 @@
-# Include jobs from docker pipeline repo to build image
-include:
-  - project: "homelab/shared/docker/docker-pipeline"
-    ref: main
-    file: "docker.all.yml"
